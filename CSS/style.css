@@ -1,0 +1,148 @@
+.kirmizi {
+    background-color: red;
+    width: 130px;
+    height: 200px;
+}
+
+
+.price {
+    color: orange;
+    font-weight: bold;
+}
+
+.footer {
+
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    border-top: 2px solid;
+}
+
+img {
+    width: 60%;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 9%;
+}
+
+.card .img-fit {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+
+.card {
+    /* display: flex; */
+    height: 100%;
+    /* flex-direction: column; */
+}
+
+.card-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-text {
+    /* flex: 1; */
+    flex-grow: 1;
+}
+
+.part1 {
+    margin-left: 28%;
+}
+
+.part2 {
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 995px) {
+    /* Mobile Screens CSS */
+
+    .navbar-brand {
+        padding-left: 46%;
+    }
+
+    .card .img-fit {
+        aspect-ratio: 1.42 / 1;
+        object-fit: cover;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 60px;
+        margin-right: 10px;
+        right: -40%;
+        height: 46vh;
+        width: 40%;
+        z-index: 999;
+        background-color: #fff;
+        overflow-y: auto;
+        transition: right 0.3s ease-in-out;
+        border-radius: 25px;
+        border-style: solid;
+        border-width: thin;
+
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 20px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: static !important;
+        float: none;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        z-index: 1000;
+    }
+
+    .btn {
+        position: absolute;
+        left: 85%;
+    }
+
+    .giris {
+        position: static;
+        margin-top: 5%;
+    }
+
+
+    .part1 {
+        margin-left: 0;
+    }
+
+    .part2 {
+        position: relative;
+        display: inline;
+        margin: 15px;
+    }
+
+}
