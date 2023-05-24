@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <h1 style="text-align: center; font-size: 4rem; margin-top: 25%;">OXO</h1>
-    <form action="/" method="get" class="ms-auto me-auto w-25">
+    <h1 style="text-align: center; font-size: 4rem; margin-top: 15%;">OXO</h1>
+    <form action="/" method="get" class="ms-auto me-auto boyut">
         <input type="email" placeholder="E-Postanızı giriniz" class="form-control">
         <input type="password" placeholder="Şifrenizi giriniz" class="form-control">
         <button type="button" class="btn btn-outline-dark w-100">Giriş Yap</button>
@@ -23,5 +23,16 @@
                 ol</a></h5>
     </form>
 </body>
+<style>
+    .boyut {
+        width: 25%;
+    }
+
+    @media (max-width:995px) {
+        .boyut {
+            width: 50%;
+        }
+    }
+</style>
 
 </html>
