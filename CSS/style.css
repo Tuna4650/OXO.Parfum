@@ -36,6 +36,12 @@ a:active {
     border-top: 2px solid;
 }
 
+.carouselclass {
+    background-color: blue;
+    height: 400px;
+    width: 800px;
+}
+
 img {
     width: 60%;
     margin: auto;
@@ -89,6 +95,12 @@ img {
     .card .img-fit {
         aspect-ratio: 1.42 / 1;
         object-fit: cover;
+    }
+
+    .carouselclass {
+        background-color: blue;
+        height: 400px;
+        width: 400px;
     }
 
     .navbar-collapse {
